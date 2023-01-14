@@ -1,0 +1,90 @@
+{
+  "name": "andre",
+  "type": "flogo:function",
+  "version": "0.0.5",
+  "title": "andre Functions",
+  "description": "andre Functions",
+  "homepage": "https://github.com/andresilvestres/andre",
+  "functions": [
+    {
+      "name": "andreRight",
+      "description": "create andreRight",
+      "example": "(String result = String.pad (text, 7, X) >> Result is>> result : textXXX)",
+      "args": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+		{
+          "name": "length",
+		  "type": "int"
+        },
+		{
+          "name": "padCharacter",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "andreLeft",
+      "description": "create andreLeft",
+      "example": "(String result = String.pad (text, 7, X) >> Result is>> result : textXXX)",
+      "args": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+		{
+          "name": "length",
+		  "type": "int"
+        },
+		{
+          "name": "padCharacter",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "andreZeros",
+      "description": "create andreZeros",
+      "example": "(String result = String.pad (text, 7, X) >> Result is>> result : textXXX)",
+      "args": [
+        {
+          "name": "value",
+          "type": "string"
+        },
+		{
+          "name": "length",
+		  "type": "int"
+        },
+		{
+          "name": "padCharacter",
+          "type": "string"
+        }
+      ],
+      "return": {
+        "type": "string"
+      }
+    },
+	{
+      "name": "random",
+      "description": "generate a random number",
+      "example": "number.random(100) => 90",
+      "args": [
+        {
+          "name": "limit",
+          "type": "int"
+        }
+      ],
+      "return": {
+        "type": "int"
+      }
+    }
+  ]
+}
